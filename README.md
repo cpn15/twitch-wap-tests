@@ -13,20 +13,7 @@ Each method inside the page should default to returning self in order to maintai
 
 Pytest is the test runner for this framework. Whenever possible, create a pytest fixture to set up test appropriate and not to bloat test cases.
 
-TWITCH-WAP-TESTS
-📦config
- ┗ 📜Data.py
- 📦pages
- ┣ 📜common.py
- ┗ 📜twitch_page.py
- 📦screenshots
- ┗ 📜TWITCH_TEST_RUN.gif
- 📦tests
- ┗ 📜test_twitch.py
- 📜.env
- 📜.gitignore
- 📜conftest.py
- 📜requirements.txt
+TWITCH-WAP-TESTS ├── config │ └── Data.py ├── pages │ ├── common.py │ └── twitch_page.py ├── screenshots │ └── TWITCH_TEST_RUN.gif ├── tests │ └── test_twitch.py ├── .env ├── .gitignore ├── conftest.py └── requirements.txt
 
 ### Directory and File Descriptions
 

@@ -6,10 +6,10 @@ This repository contains UI tests for WAP Testing.
 
 ## Project Structure
 
-The system uses a page object model style format to store elements and interactions within each page. All actions should be defined within pages and not be written within thge tests folder to keep the tests maintainable and readable.
+The system uses a page object model style format to store elements and interactions within each page. All actions should be defined within pages and not be written within the tests folder to keep the tests maintainable and readable.
 
 The actions in each page use the robot pattern that allows test cases to join operation via the (.) operator.
-Each method inside the page should default to returning self in order to maintain this patter.
+Each method inside the page should default to returning self in order to maintain this pattern.
 
 Pytest is the test runner for this framework. Whenever possible, create a pytest fixture to set up test appropriate and not to bloat test cases.
 
@@ -45,7 +45,7 @@ This is where the test files reside with test cases specific to a feature. It is
 ### `.env`
 Stores environment-specific variables required by `Data.py`. This file should be kept local and is listed in `.gitignore` to avoid exposing sensitive data.
 
-### .gitignore
+### `.gitignore`
 Specifies files and directories that should be excluded by Git.
 
 ### `requirements.txt`
